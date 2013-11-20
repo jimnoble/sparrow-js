@@ -1,0 +1,25 @@
+{
+    "name": "sparrow",
+
+    "description": "Lightweight MVC for Node JS",
+
+    "version": "0.0.1",
+
+    "private": true,
+
+	"main": "./lib/index.js",
+
+    "dependencies":
+    {
+        "async": "0.x",
+
+        "express": "3.x",
+
+        "handlebars": "1.1.2"
+    },
+
+	"devDependencies":
+	{
+        "grunt-browserify": "1.x"
+	}
+}
