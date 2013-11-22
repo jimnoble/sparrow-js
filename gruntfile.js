@@ -9,11 +9,11 @@ module.exports = function (grunt)
             {
                 src: ['./lib/client.js'],
 
-                dest: './lib/content/client.js',
+                dest: './lib/content/sparrow.js',
 
                 options:
                 {
-                    alias: ['./lib/client:client']
+                    alias: ['./lib/client:sparrow']
                 }
             }
         }
