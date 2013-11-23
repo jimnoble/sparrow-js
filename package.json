@@ -3,7 +3,7 @@
 
     "description": "Web App Framework",
 
-    "version": "0.0.2",
+    "version": "0.0.3",
 
     "main": "./lib/index.js",
 
@@ -13,7 +13,15 @@
 
         "express": "3.x",
 
-        "handlebars": "1.1.2"
+        "handlebars": "1.1.2",
+
+		"caterpillar": "2.x",
+
+		"caterpillar-filter": "2.x",
+
+		"caterpillar-browser": "2.x",
+
+		"caterpillar-human": "2.x"
     },
 
 	"devDependencies":
