@@ -1,22 +1,38 @@
 {
-  "name": "sparrow",
-  "description": "Web App Framework",
-  "version": "0.0.4",
-  "main": "./lib/index.js",
-  "dependencies": {
-    "async": "0.x",
-    "express": "3.x",
-    "handlebars": "1.1.2",
-    "caterpillar": "2.x",
-    "caterpillar-filter": "2.x",
-    "caterpillar-browser": "2.x",
-    "caterpillar-human": "2.x"
-  },
-  "devDependencies": {
-    "grunt-browserify": "1.x"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/jimnoble/sparrow-js.git"
-  }
+	"name": "sparrow",
+
+	"description": "Web App Framework",
+
+	"version": "0.0.4",
+
+	"main": "./lib/index.js",
+
+	"dependencies": 
+	{
+		"async": "0.x",
+
+		"express": "3.x",
+
+		"handlebars": "1.1.2",
+
+		"caterpillar": "2.x",
+
+		"caterpillar-filter": "2.x",
+
+		"caterpillar-browser": "2.x",
+
+		"caterpillar-human": "2.x"
+	},
+
+	"devDependencies": 
+	{
+		"grunt-browserify": "1.x"
+	},
+
+	"repository": 
+	{
+		"type": "git",
+	
+		"url": "https://github.com/jimnoble/sparrow-js.git"
+	}
 }
